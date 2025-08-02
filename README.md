@@ -1,2 +1,2 @@
-# Stow
-GNU-Stow For Managing Dotfiles
+# Linux Dotfiles
+- Use GNU-Stow For Managing Dotfiles
