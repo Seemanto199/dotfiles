@@ -1,0 +1,8 @@
+theme = GruvboxDarkHard
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+#background-opacity = 0.95
+
+#gtk-titlebar = false
+# custom-shader = /home/chris/bloom.glsl
+#custom-shader = /home/chris/crt.glsl
