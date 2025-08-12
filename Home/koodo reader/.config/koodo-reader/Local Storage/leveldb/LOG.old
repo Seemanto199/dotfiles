@@ -1,0 +1,5 @@
+2025/08/12-20:14:36.205 c0be Reusing MANIFEST /home/Seemanto/.config/koodo-reader/Local Storage/leveldb/MANIFEST-000001
+2025/08/12-20:14:36.231 c0be Recovering log #79
+2025/08/12-20:14:36.231 c0be Level-0 table #81: started
+2025/08/12-20:14:36.239 c0be Level-0 table #81: 20476 bytes OK
+2025/08/12-20:14:36.242 c0be Delete type=0 #79

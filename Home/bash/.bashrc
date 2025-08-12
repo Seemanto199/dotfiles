@@ -16,15 +16,17 @@ alias grep='grep --color=auto'
 
 ######Fastfetch########################################
 
-if [[ $- == *i* ]]; then
-    fastfetch
-      if [ -t 1 ]; then
-      stty -echo
-      IFS= read -rsn1 _
-      stty echo
-      clear
-      fi
-fi
+#if [[ $- == *i* ]]; then
+    #fastfetch
+      
+    #if [ -t 1 ]; then
+     # stty -echo
+      #IFS= read -rsn1 _
+      #stty echo
+      #clear
+      #fi
+
+#fi
 ######################################################
 
 ###STARSHIP###########################################
