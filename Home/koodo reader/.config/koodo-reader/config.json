@@ -1,17 +1,17 @@
 {
 	"appVersion": "2.1.0",
-	"appPlatform": "linux 6.15.8-arch1-2",
-	"url": "file:///opt/koodo-reader-bin/resources/app.asar/build/index.html#/pdf/1755007940495?title=প্যারাডক্সিক্যাল সাজিদ&file=1755007940495",
+	"appPlatform": "linux 6.15.9-arch1-1",
+	"url": "file:///opt/koodo-reader-bin/resources/app.asar/build/index.html#/pdf/1755340325295?title=electro 1&file=1755340325295",
 	"isMergeWord": "no",
 	"isAutoFullscreen": "no",
 	"isPreventSleep": "yes",
-	"windowWidth": 1919,
-	"windowHeight": 764,
-	"windowX": 161,
-	"windowY": 227,
+	"windowWidth": 1920,
+	"windowHeight": 1034,
+	"windowX": 0,
+	"windowY": 46,
 	"mainWinWidth": 1920,
 	"mainWinHeight": 1034,
 	"isAutoMaximizeWin": "yes",
 	"mainWinX": 0,
-	"mainWinY": 0
+	"mainWinY": 46
 }

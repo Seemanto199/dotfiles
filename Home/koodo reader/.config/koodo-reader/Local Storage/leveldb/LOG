@@ -1,3 +1,21 @@
-2025/08/12-20:15:00.739 c17b Reusing MANIFEST /home/Seemanto/.config/koodo-reader/Local Storage/leveldb/MANIFEST-000001
-2025/08/12-20:15:00.753 c17b Recovering log #82
-2025/08/12-20:15:00.754 c17b Reusing old log /home/Seemanto/.config/koodo-reader/Local Storage/leveldb/000082.log 
+2025/08/16-16:32:02.350 1757 Reusing MANIFEST /home/Seemanto/.config/koodo-reader/Local Storage/leveldb/MANIFEST-000001
+2025/08/16-16:32:02.379 1757 Recovering log #114
+2025/08/16-16:32:02.381 1757 Level-0 table #116: started
+2025/08/16-16:32:02.388 1757 Level-0 table #116: 100027 bytes OK
+2025/08/16-16:32:02.388 1757 Recovering log #116
+2025/08/16-16:32:02.391 1757 Level-0 table #117: started
+2025/08/16-16:32:02.395 1757 Level-0 table #117: 26398 bytes OK
+2025/08/16-16:32:02.398 1757 Delete type=0 #114
+2025/08/16-16:32:02.398 1757 Delete type=0 #116
+2025/08/16-16:32:02.399 1757 Compacting 5@0 + 1@1 files
+2025/08/16-16:32:02.411 1757 Generated table #119@0: 19 keys, 117800 bytes
+2025/08/16-16:32:02.411 1757 Compacted 5@0 + 1@1 files => 117800 bytes
+2025/08/16-16:32:02.413 1757 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/08/16-16:32:02.414 1757 Delete type=2 #108
+2025/08/16-16:32:02.414 1757 Delete type=2 #110
+2025/08/16-16:32:02.414 1757 Delete type=2 #117
+2025/08/16-16:32:02.414 1757 Delete type=2 #116
+2025/08/16-16:32:02.414 1757 Delete type=2 #112
+2025/08/16-16:32:02.414 1757 Delete type=2 #113
+2025/08/16-16:32:23.456 1758 Level-0 table #121: started
+2025/08/16-16:32:23.462 1758 Level-0 table #121: 329269 bytes OK
