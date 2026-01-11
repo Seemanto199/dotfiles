@@ -6,3 +6,4 @@ font-size = 13
 #gtk-titlebar = false
 # custom-shader = /home/chris/bloom.glsl
 #custom-shader = /home/chris/crt.glsl
+
