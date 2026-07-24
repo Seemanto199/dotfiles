@@ -1,0 +1,128 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+        
+        "logo": {
+        "type": "builtin",
+        "source": "arch2",
+        "color": {
+        "1": "blue",  // Changes the primary color of the logo
+        "2": "blue"   // Changes the secondary color (often the text or accents)
+            },
+       // "padding": {
+        //"top": 2,    // Adds 2 blank lines above the logo
+      //  }
+    },
+ 
+   "display": {
+        "separator": ">  ",
+        "color": {
+            "separator": "red"
+        },
+        "constants": [
+            "═══════════════════════════════════════════════════════════════════════════",
+            "║\u001b[75C║\u001b[75D"
+        ]
+    },
+        
+    "modules": [
+        {
+            "format": "{#1}{#keys}╔{$1}╗\u001b[53D 💻{user-name-colored}{at-symbol-colored}{host-name-colored} ",
+            "type": "title"
+        },
+        {
+            "key": "{$2}{#33}{icon} distro   ",
+            "type": "os"
+        },
+        {
+            "key": "{$2}{#31} kernel   ",
+            "type": "kernel"
+        },
+        {
+            "key": "{$2}{#32}󰅐 uptime   ",
+            "type": "uptime"
+        },
+        {
+            "type": "packages",
+            "key": "{$2}{#33}󰏖 pkgs     "
+        },
+        {
+            "key": "{$2}{#34}󰇄 desktop  ",
+            "type": "de"
+        },
+        {
+            "key": "{$2}{#33} WM       ",
+            "type": "wm"
+        },
+        {
+            "key": "{$2}{#35} term     ",
+            "type": "terminal"
+        },
+        {
+            "key": "{$2}{#31} shell    ",
+            "type": "shell"
+        },
+        {
+            "key": "{$2}{#33}󰇄 Display  ",
+            "type": "display"
+        },
+        {
+            "key": "{$2}{#35}󰍛 cpu      ",
+            "type": "cpu",
+            "showPeCoreCount": true,
+            "temp": true
+        },
+        {
+            "key": "{$2}{#36}󰍛 gpu      ",
+            "type": "gpu"
+        },
+        {
+            "key": "{$2}{#33}󰉉 disk     ",
+            "type": "disk",
+                    "percent": {
+                "type": 3,     // Show both percentage number and bar
+                "green": 30,   // Values below 30% in green
+                "yellow": 70   // 30-70% in yellow, >70% in red
+                },
+        },
+        {
+            "type": "memory",
+            "key": "{$2}{#34} memory   ",
+                "percent": {
+                "type": 3,     // Show both percentage number and bar
+                "green": 30,   // Values below 30% in green
+                "yellow": 70   // 30-70% in yellow, >70% in red
+            }
+        },
+        {
+            "type": "swap",
+            "key": "{$2}{#34} swap     ",
+                "percent": {
+                "type": 3,     // Show both percentage number and bar
+                "green": 30,   // Values below 30% in green
+                "yellow": 70   // 30-70% in yellow, >70% in red
+            }
+        },
+        {
+            "type": "battery",
+            "key": "{$2}{#32} Battery  ",
+                            "percent": {
+                    "type": 3,     // Show both percentage number and bar
+                    "red": 30,   // Values below 30% in green
+                    "yellow": 80   // 30-80% in yellow, >70% in red
+            }
+        },
+        {
+            "format": "{#1}{#keys}╠{$1}╣",
+            "type": "custom"
+        },
+        {
+            "key": "{$2}{#39} colors   ",
+            "type": "colors",
+            "symbol": "circle"
+        },
+        {
+            "format": "{#1}{#keys}╚{$1}╝",
+            "type": "custom"
+        }
+    ]
+}

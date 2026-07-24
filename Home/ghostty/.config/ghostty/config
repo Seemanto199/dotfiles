@@ -4,6 +4,8 @@ font-size = 13
 #background-opacity = 1
 
 #gtk-titlebar = false
-# custom-shader = /home/chris/bloom.glsl
-#custom-shader = /home/chris/crt.glsl
+
+
+window-padding-x = 8
+window-padding-y = 8
 

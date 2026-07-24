@@ -1,30 +1,67 @@
+# Ensures 24-bit truecolor support for Neovim and modern CLI tools
 [env]
 TERM = "xterm-256color"
 
+
+
+# Terminal Font
 [font]
 size = 13.0
 
-[font.bold]
-#family = "MesloLGS Nerd Font Mono"
-#family = "CaskaydiaCove Nerd Font"
-#style = "Bold"
+normal = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Bold" }
+italic = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Bold Italic" }
 
-[font.bold_italic]
-#family = "CaskaydiaCove Nerd Font"
-#family = "MesloLGS Nerd Font Mono"
-#style = "Bold Italic"
 
-[font.italic]
-#family = "CaskaydiaCove Nerd Font"
-#family = "MesloLGS Nerd Font Mono"
-#style = "Italic"
+[window]
+#dimensions = { columns = 120, lines = 35 }
+padding = { x = 12, y = 12 }
+decorations = "None"
+opacity = 0.93
+blur = true
+startup_mode = "Maximized"
+# decorations_theme_variant = "Dark" #Override the variant of the System theme/GTK theme/Wayland client side decorations. Set this to "None" to use the system's default theme variant.
 
-[font.normal]
-#family = "MesloLGS Nerd Font Mono"
-#family = "CaskaydiaCove Nerd Font"
-#style = "Regular"
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+
+[cursor]
+style = { shape = "Block", blinking = "Never" }
+blink_interval = 750
+unfocused_hollow = true
+# thickness = 0.15 # when using beam
+
+
+[mouse]
+hide_when_typing = true
+bindings = [
+{ mouse = "Right", mods = "Control", action = "Paste" },
+{ mouse = "Left", mods = "Control", action = "Copy" },
+]
+
+
+[keyboard]
+bindings = [
+  {
+    key = ",",
+    mods = "Control",
+    command = {
+      program = "gnome-text-editor",
+      args = ["/home/smjohn/.config/alacritty/alacritty.toml"]
+    }
+  }
+]
+
 
 [general]
 import = [
-  "~/.config/alacritty/themes/gruvbox_material_hard_dark.toml"
+  "everforest_dark_hard-mine.toml"
 ]
+
+live_config_reload = true
+
+
